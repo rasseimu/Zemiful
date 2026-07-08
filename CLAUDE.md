@@ -63,6 +63,12 @@ fresh session can build, run, and test without guessing. Expected shape:
   hint" as distinct, individually testable units rather than one branching function.
 - Match the surrounding code's naming, structure, and comment density when editing.
 
+## Git workflow
+
+Never commit directly to `main`. Every change follows: create a branch → commit on it
+→ push the branch → merge into `main` (then push `main`). Use a descriptive branch name
+(e.g. `feature/…`, `fix/…`, `docs/…`).
+
 ## Claude Code setup in this repo
 
 - `.claude/commands/` — project slash commands (see `/scaffold-component`, `/prompt-type`).
